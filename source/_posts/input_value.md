@@ -36,3 +36,10 @@ txt.value = '';
 ## 限制 input 輸入長度
 限制字數可使用 `maxlength` 若 `type="number"` 是無法使用這個語法，需改為 `type="tel"` 
 可參考這篇[文章](https://www.itread01.com/articles/1498672640.html)
+
+## input 欄位如不輸入內容會是 "" ，如轉為數字則會是 NaN
+可參考 [stackoverflow 討論](https://stackoverflow.com/a/44264395)
+裡面提到沒輸入 `value` 就會是 `""` 
+但該欄位如果有轉型為 `Number`
+則會得到 `NaN`
+

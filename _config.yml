@@ -106,3 +106,11 @@ deploy:
   type: git
   repo: https://github.com/ruienyuski/blog.git
   branch: master
+
+# hexo-generator-searchdb
+## Docs: https://github.com/theme-next/hexo-generator-searchdb
+search:
+  path: search.json
+  field: post
+  content: true
+  format: html

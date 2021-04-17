@@ -5,7 +5,7 @@ categories: hexo
 tags:
   - hexo
 ---
-這邊紀錄 hexo 需要附上圖片的處理方式
+這邊紀錄 `hexo 需要附上圖片的處理方式
 <!-- more -->
 ## 本地上傳圖片
 在 `hexo` 根目錄的 `_config.yml` 裡面有個
